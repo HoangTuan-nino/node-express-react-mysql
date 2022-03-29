@@ -15,7 +15,7 @@ const EditProduct = () => {
       title: title,
       price: price,
     });
-    history.push("/");
+    history("/");
   };
 
   useEffect(() => {
@@ -52,7 +52,7 @@ const EditProduct = () => {
         </div>
 
         <div className="field">
-          <Button variant="contained">Update</Button>
+          <button className="button is-primary">Update</button>
         </div>
       </form>
     </div>

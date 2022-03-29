@@ -40,7 +40,7 @@ const AddProduct = () => {
         </div>
 
         <div className="field">
-          <Button variant="contained">Save</Button>
+          <button className="button is-primary">Save</button>
         </div>
       </form>
     </div>
